@@ -111,9 +111,6 @@
     cursor: pointer;
     display: none;
 }
-.box .content {
-    flex-grow: 1; /* Cho phép nội dung mở rộng để điền vào không gian còn trống */
-}
 
 @media only screen and (max-width: 768px) {
     .action-bar {
@@ -162,7 +159,7 @@
     }
 
     .box-content span:not(:first-child) {
-        text-decoration: none; /* Loại bỏ gạch chân */
+        
     }
 
     .box-content span {
@@ -171,9 +168,6 @@
         margin-bottom: 10px; /* Cách dòng 10px */
         font-size: 14px; /* Đặt kích thước chữ cho thông tin 1, 2, 3,... */
         line-height: 1.2;
-        text-decoration: none; /* Loại bỏ gạch chân */
-    }
-    .box-content span:not(:first-child):not(.student-id) {
         text-decoration: none; /* Loại bỏ gạch chân */
     }
     
