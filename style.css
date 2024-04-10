@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.header-background {
+    height: 20px; /* Đặt chiều cao của thanh nền */
+    background-color: #0d4e96; /* Màu nền của thanh nền */
+    width: 100%; /* Chiều rộng 100% */
+    position: fixed; /* Vị trí cố định */
+    top: 0; /* Nằm ở trên cùng */
+    left: 0; /* Nằm ở bên trái */
+    z-index: 1000; /* Độ sâu của phần tử, đảm bảo nó nằm trên cùng */
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header img {
+    height: auto;
+    width: 250px;
+    object-fit: cover;
+    margin-top: 40px;
+}
+
+.header ul.bar-action {
+    display: flex;
+    gap: 10px;
+    margin-right: 100px;
+    margin-top: 40px;
+}
+
+.header ul.bar-action li {
+    list-style: none;
+}
+
+.header ul.bar-action li .active {
+    color: #0d4e96;
+}
+
+.header ul.bar-action li a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.body-main {
+    max-width: 70%;
+}
+
+.wrap-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: #0d4e96;
+    text-align: center;
+    margin: 40px 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.text-center {
+    text-align: center;
+    margin: 14px 0;
+}
+
+.box {
+    border-radius: 5px;
+    background-color: #F5F5F5;
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+}
+
+.box img {
+    border-radius: 5px;
+    max-width: 70%;
+    height: auto;
+}
+
+.box-content h3 {
+    margin-bottom: 35px;
+    font-size: 23px; /* Đặt kích thước chữ cho tiêu đề HỌ VÀ TÊN */
+    margin-bottom: 15px; /* Cách dòng 20px */
+    line-height: 1.2;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.box-content span {
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 10px; /* Cách dòng 10px */
+    font-size: 14px; /* Đặt kích thước chữ cho thông tin 1, 2, 3,... */
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.action-bar {
+    cursor: pointer;
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .action-bar {
+        display: block;
+        height: 25px;
+        margin-right: 30px; 
+        background-color: #ffffff; /* Màu nền */
+        border-radius: 5px; /* Bo tròn viền */
+        padding: 3px; /* Khoảng cách giữa nội dung và viền */
+        border: 1px solid #cac8c8; /* Viền với màu và độ rộng mong muốn */
+    }
+
+    .bar-action {
+        display: none!important;
+    }
+
+    .body-main {
+        max-width: 100%!important;
+    }
+
+    .box {
+        flex-wrap: wrap;
+        border-radius: 5px; /* Bo tròn viền */
+        padding: 8px; /* Khoảng cách giữa nội dung và viền */
+    }
+
+    .title {
+        font-size: 30px;
+        margin-top: 40px;
+        margin: 2px 0;
+    }
+
+    .box img {
+        border-radius: 5px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .header img {
+        margin-bottom: 50px;
+        margin-right: 200px; /* Dịch sang trái khi reponsive */
+        height: auto;
+        width: 150px;
+        object-fit: cover;
+    }
+
+    .box-content span:not(:first-child) {
+        text-decoration: none; /* Loại bỏ gạch chân */
+    }
+
+    .box-content span {
+        display: block;
+        text-transform: uppercase;
+        margin-bottom: 10px; /* Cách dòng 10px */
+        font-size: 14px; /* Đặt kích thước chữ cho thông tin 1, 2, 3,... */
+        line-height: 1.2;
+        text-decoration: none; /* Loại bỏ gạch chân */
+    }
+    .box-content span:not(:first-child):not(.student-id) {
+        text-decoration: none; /* Loại bỏ gạch chân */
+    }
+    
+}
