@@ -79,6 +79,8 @@
     display: flex;
     padding: 10px;
     gap: 20px;
+    align-items: stretch; /* Background co dãn theo chiều dọc */
+    justify-content: stretch; /* Background co dãn theo chiều ngang */
 }
 
 .box img {
