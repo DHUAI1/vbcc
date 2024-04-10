@@ -111,6 +111,9 @@
     cursor: pointer;
     display: none;
 }
+.box .content {
+    flex-grow: 1; /* Cho phép nội dung mở rộng để điền vào không gian còn trống */
+}
 
 @media only screen and (max-width: 768px) {
     .action-bar {
