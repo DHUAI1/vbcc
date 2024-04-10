@@ -137,8 +137,9 @@
 
     .title {
         font-size: 30px;
-        margin-top: 40px;
+        margin-top: 40px;  /* khoảng cách tiêu đề bên trên */
         margin: 2px 0;
+        margin-bottom: 30px  /* khoảng cách box phía dưới */
     }
 
     .box img {
