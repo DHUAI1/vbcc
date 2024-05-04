@@ -98,7 +98,7 @@
     text-decoration: none;
 }
 
-.box-content .information-list span {
+.box-content span {
     display: block;
     text-transform: uppercase;
     margin-bottom: 10px; /* Cách dòng 10px */
