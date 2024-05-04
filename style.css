@@ -121,20 +121,24 @@
         border-radius: 5px; /* Bo tròn viền */
         padding: 3px; /* Khoảng cách giữa nội dung và viền */
         border: 1px solid #cac8c8; /* Viền với màu và độ rộng mong muốn */
+        text-decoration: none;     
     }
 
     .bar-action {
         display: none!important;
+        text-decoration: none;
     }
 
     .body-main {
         max-width: 100%!important;
+        text-decoration: none;
     }
 
     .box {
         flex-wrap: wrap;
         border-radius: 5px; /* Bo tròn viền */
         padding: 8px; /* Khoảng cách giữa nội dung và viền */
+        text-decoration: none;
     }
 
     .title {
@@ -142,6 +146,7 @@
         margin-top: 40px;  /* khoảng cách tiêu đề bên trên */
         margin: 2px 0;
         margin-bottom: 30px  /* khoảng cách box phía dưới */
+        text-decoration: none;
     }
 
     .box img {
@@ -156,6 +161,7 @@
         height: auto;
         width: 150px;
         object-fit: cover;
+        text-decoration: none;
     }
 
     .box-content span:not(:first-child) {
