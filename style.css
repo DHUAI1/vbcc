@@ -168,8 +168,7 @@
         margin-bottom: 10px; /* Cách dòng 10px */
         font-size: 14px; /* Đặt kích thước chữ cho thông tin 1, 2, 3,... */
         line-height: 1.2;
-        text-decoration: none; /* Loại bỏ gạch chân */
-        !important;
+        text-decoration: none !important;
     }
     
 }
