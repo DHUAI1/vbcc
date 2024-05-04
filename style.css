@@ -129,6 +129,7 @@
 
     .body-main {
         max-width: 100%!important;
+        text-decoration: none;
     }
 
     .box {
