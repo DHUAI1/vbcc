@@ -163,6 +163,7 @@
 
     .box-content span:not(:first-child) {
         text-decoration: none !important;
+        color: #000000;
     }
 
     .box-content span {
@@ -172,11 +173,14 @@
         font-size: 14px; /* Đặt kích thước chữ cho thông tin 1, 2, 3,... */
         line-height: 1.2;
         text-decoration: none !important;
+        color: #000000;
     }
     .box-content span:not(:first-child):not(.student-id) {
         text-decoration: none !important;
+        color: #000000;
     }
     a {
+        color: #000000;
         text-decoration: none !important;
     }
 }
