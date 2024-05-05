@@ -1,4 +1,3 @@
-stylecss.css
 * {
     margin: 0;
     padding: 0;
@@ -94,6 +93,7 @@ stylecss.css
     margin-bottom: 15px; /* Cách dòng 20px */
     line-height: 1.2;
     margin-top: 30px;
+    text-decoration: none;
 }
 
 .box-content span {
@@ -102,6 +102,7 @@ stylecss.css
     margin-bottom: 10px; /* Cách dòng 10px */
     font-size: 14px; /* Đặt kích thước chữ cho thông tin 1, 2, 3,... */
     line-height: 1.2;
+    text-decoration: none;
 }
 
 .action-bar {
@@ -113,16 +114,18 @@ stylecss.css
     .action-bar {
         display: block;
         height: 25px;
-        margin-right: 30px; 
+        margin-right: 15px;
+        margin-left: 10px;
         background-color: #ffffff; /* Màu nền */
         border-radius: 5px; /* Bo tròn viền */
-        padding: 3px; /* Khoảng cách giữa nội dung và viền */
-        border: 1px solid #cac8c8; /* Viền với màu và độ rộng mong muốn */
-        
-    }
+        padding: 5px; /* Khoảng cách giữa nội dung và viền */
+        border: 0.6px solid #cac8c8; /* Viền với màu và độ rộng mong muốn */
+        color: #1d191988; /* Màu nội dung bên trong */
+    }    
 
     .bar-action {
         display: none!important;
+        
     }
 
     .body-main {
@@ -136,9 +139,11 @@ stylecss.css
     }
 
     .title {
+        color: #0d4e96;
+        text-align: center;
+        margin-top: 0; /* Loại bỏ khoảng cách ở phía trên */
+        margin-bottom: 35px; /* Đặt khoảng cách ở phía dưới là 35px */
         font-size: 30px;
-        margin-top: 40px;
-        margin: 2px 0;
     }
 
     .box img {
@@ -148,14 +153,30 @@ stylecss.css
     }
 
     .header img {
+        height: 27px;
         margin-bottom: 50px;
-        margin-right: 200px; /* Dịch sang trái khi reponsive */
+        margin-right: 100px; /* Dịch sang trái khi reponsive */
         height: auto;
         width: 150px;
         object-fit: cover;
     }
 
     .box-content span:not(:first-child) {
-        text-decoration: none; /* Loại bỏ gạch chân */
+        text-decoration: none !important;
+    }
+
+    .box-content span {
+        display: block;
+        text-transform: uppercase;
+        margin-bottom: 10px; /* Cách dòng 10px */
+        font-size: 14px; /* Đặt kích thước chữ cho thông tin 1, 2, 3,... */
+        line-height: 1.2;
+        text-decoration: none !important;
+    }
+    .box-content span:not(:first-child):not(.student-id) {
+        text-decoration: none !important;
+    }
+    a {
+        text-decoration: none !important;
     }
 }
