@@ -170,7 +170,7 @@
         display: block;
         text-transform: uppercase;
         margin-bottom: 8px; /* Cách dòng 10px */
-        font-size: 15px; /* Đặt kích thước chữ cho thông tin 1, 2, 3,... */
+        font-size: 14px; /* Đặt kích thước chữ cho thông tin 1, 2, 3,... */
         line-height: 1.2;
         text-decoration: none !important;
         color: #000000;
